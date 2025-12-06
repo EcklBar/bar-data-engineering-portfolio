@@ -1,0 +1,30 @@
+import requests
+import json
+
+API_KEY = "AIzaSyAsBfDKYKk0qCz_x-6vzOaiMf7wik3m1_A"
+CHANNEL_HANDLE = "MrBeast"
+
+def get_playlist_id():
+
+    try:
+
+		url = f"https://youtube.googleapis.com/youtube/v3/channels?part=contentDetails&forHandle={CHANNEL_HANDLE}&key={API_KEY}"
+
+		# A GET request to the API
+		response = requests.get(url)
+
+		response.raise_for_status()
+
+		# Print the response
+		response_json = response.json()
+		# print(json.dumps(response_json, indent=4))
+
+		channel_items = response_json["items"][0]
+
+		channel_playlistId = channel_items["contentDetails"]["relatedPlaylists"]["uploads"]
+
+		# print(channel_playlistId)
+
+		return channel_playlistId
+
+	except:
