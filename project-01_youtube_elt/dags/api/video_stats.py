@@ -9,8 +9,8 @@ load_dotenv(dotenv_path="./.env")
 from airflow.decorators import task
 from airflow.models import Variable
 
-API_KEY = Variable.get("AIRFLOW_VAR_API_KEY")
-CHANNEL_HANDLE = Variable.get("AIRFLOW_VAR_CHANNEL_HANDLE")
+API_KEY = Variable.get("API_KEY")
+CHANNEL_HANDLE = Variable.get("CHANNEL_HANDLE")
 maxResults = 50
 
 @task
