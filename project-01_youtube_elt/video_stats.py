@@ -124,14 +124,6 @@ def save_to_json(extracted_data):
     with open(file_path, 'w', encoding='utf-8') as json_outfile:
         json.dump(extracted_data, json_outfile, indent=4, ensure_ascii=False)
 
-# Generating Fernet key
-# If you need to generate a new fernet key you can use the following code snippet.
-# from cryptography.fernet import Fernet
-
-# fernet_key = Fernet.generate_key()
-# print(fernet_key.decode())  # This will print your Fernet key
-
-
 if __name__ == "__main__":
 	playlistId = get_playlist_id()
 	video_ids = get_video_ids(playlistId)
