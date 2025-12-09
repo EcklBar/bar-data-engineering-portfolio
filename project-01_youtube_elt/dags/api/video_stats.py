@@ -2,9 +2,9 @@ import requests
 import json
 from datetime import date
 
-import os
-from dotenv import load_dotenv
-load_dotenv(dotenv_path="./.env")
+# import os
+# from dotenv import load_dotenv
+# load_dotenv(dotenv_path="./.env")
 
 from airflow.decorators import task
 from airflow.models import Variable
