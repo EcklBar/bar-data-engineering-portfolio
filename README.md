@@ -1,9 +1,9 @@
-# **Youtube API - ELT**
+[# **Youtube API - ELT**
 
 ## **Architecture** 
 
 <p align="center">
-  <img width="500" height="400" src="[images/project_architecture.png](https://drive.google.com/file/d/1PqZv8YXtgc-yzEJFY8n5BSCXmm4VUlLF/view?usp=drive_link)">
+  <img width="500" height="400" src="https://drive.google.com/uc?export=view&id=1PqZv8YXtgc-yzEJFY8n5BSCXmm4VUlLF">
 </p>
 
 ## **Motivation** 
@@ -82,3 +82,4 @@ The CI-CD part of this project is needed for when you make a change the Airflow 
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
+](https://drive.google.com/file/d/1PqZv8YXtgc-yzEJFY8n5BSCXmm4VUlLF/view?usp=drive_link)
