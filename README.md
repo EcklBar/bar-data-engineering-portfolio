@@ -3,7 +3,8 @@
 ## **Architecture** 
 
 <p align="center">
-  <img width="500" height="400" src="images/project_architecture.png">
+  <img width="500" height="400" src="<img width="773" height="664" alt="image" src="https://github.com/user-attachments/assets/f5c34b42-198b-47cc-9476-1495c50ab0fd" />
+">
 </p>
 
 ## **Motivation** 
