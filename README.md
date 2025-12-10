@@ -3,7 +3,8 @@
 ## **Architecture** 
 
 <p align="center">
-  <img width="500" height="400" src="images/project_architecture.png">
+  <img width="500" height="400" src="[images/project_architecture.png](https://drive.google.com/uc?export=view&id=1PqZv8YXtgc-yzEJFY8n5BSCXmm4VUlLF
+)">
 </p>
 
 ## **Motivation** 
