@@ -1,5 +1,10 @@
 from datetime import timedelta, datetime
+# import isodate
 
+
+# def parse_duration_v2(duration_str):
+
+#     return isodate.parse_duration(duration_str)
 
 def parse_duration(duration_str):
 
