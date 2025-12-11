@@ -15,6 +15,7 @@ def load_data():
         with open(file_path, "r", encoding="utf-8") as raw_data:
             data = json.load(raw_data)
         return data
+
     except FileNotFoundError:
         logger.error(f"File not found:{file_path}")
         raise
