@@ -1,28 +1,29 @@
-from datetime import timedelta, datetime
-# import isodate
+from datetime import datetime # timedelta,
+import isodate
 
 
-# def parse_duration_v2(duration_str):
+# def parse_duration(duration_str):
+#
+#     duration_str = duration_str.replace("P", "").replace("T", "")
+#
+#     components = ["D", "H", "M", "S"]
+#     values = {"D": 0, "H": 0, "M": 0, "S": 0}
+#
+#     for component in components:
+#         if component in duration_str:
+#             value, duration_str = duration_str.split(component)
+#             values[component] = int(value)
+#
+#     total_duration = timedelta(
+#         days=values["D"], hours=values["H"], minutes=values["M"], seconds=values["S"]
+#     )
+#
+#     return total_duration
 
-#     return isodate.parse_duration(duration_str)
 
 def parse_duration(duration_str):
 
-    duration_str = duration_str.replace("P", "").replace("T", "")
-
-    components = ["D", "H", "M", "S"]
-    values = {"D": 0, "H": 0, "M": 0, "S": 0}
-
-    for component in components:
-        if component in duration_str:
-            value, duration_str = duration_str.split(component)
-            values[component] = int(value)
-
-    total_duration = timedelta(
-        days=values["D"], hours=values["H"], minutes=values["M"], seconds=values["S"]
-    )
-
-    return total_duration
+    return isodate.parse_duration(duration_str)
 
 
 def transform_data(row):
