@@ -1,0 +1,90 @@
+# ============================================
+# Real Estate ROI Predictor - Git Ignore
+# ============================================
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Data files (raw data should not be committed)
+data/raw/**/*.json
+data/raw/**/*.csv
+data/raw/**/*.parquet
+!data/raw/.gitkeep
+
+# Local databases
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Docker volumes (if mounted locally)
+postgres-data/
+minio-data/
+kafka-data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow.db
+airflow-webserver.pid
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
