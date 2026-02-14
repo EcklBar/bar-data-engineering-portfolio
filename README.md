@@ -10,4 +10,4 @@ Welcome to my data engineering portfolio! Here you'll find various projects I ha
 2. [Alpha Vantage - Telegram Stock Bot](project-02-alphavantage_etl/README.md)
    A Telegram bot with modular ETL architecture that fetches stock data from Alpha Vantage API, caches it in SQLite, and generates stock chart images.
 
-3. Nadlanist
+3. [Nadlanist](project-03-nadlanist/README.md)
